@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Title",
-            "content": "Histogram . from vega_datasets import data movies = data.movies() alt.Chart(movies).mark_bar().encode( x=alt.X(&#39;IMDB Rating&#39;, bin=alt.Bin(maxbins=10)), y=&#39;count(*):Q&#39;, ) .",
+            "title": "Movie ratings",
+            "content": "",
             "url": "https://havardei.github.io/fastpages-demo/2020/10/28/test.html",
             "relUrl": "/2020/10/28/test.html",
             "date": " • Oct 28, 2020"
