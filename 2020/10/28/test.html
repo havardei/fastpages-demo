@@ -145,12 +145,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-4d91b1e83f7c4004b13687de7d4360b3"></div>
+<div id="altair-viz-22da76c1d51e453cbbf076c4e58f5d97"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-4d91b1e83f7c4004b13687de7d4360b3") {
-      outputDiv = document.getElementById("altair-viz-4d91b1e83f7c4004b13687de7d4360b3");
+    if (outputDiv.id !== "altair-viz-22da76c1d51e453cbbf076c4e58f5d97") {
+      outputDiv = document.getElementById("altair-viz-22da76c1d51e453cbbf076c4e58f5d97");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -211,7 +211,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">movies</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">movies</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;IMDB Rating&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -263,217 +263,197 @@ window.onload = wrap_img;
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>The Land Girls</td>
-      <td>146083.0</td>
-      <td>146083.0</td>
+      <th>841</th>
+      <td>The Shawshank Redemption</td>
+      <td>28241469.0</td>
+      <td>2.824147e+07</td>
+      <td>NaN</td>
+      <td>25000000.0</td>
+      <td>Sep 23 1994</td>
+      <td>R</td>
+      <td>NaN</td>
+      <td>Sony Pictures</td>
+      <td>Based on Book/Short Story</td>
+      <td>Drama</td>
+      <td>Historical Fiction</td>
+      <td>Frank Darabont</td>
+      <td>88.0</td>
+      <td>9.2</td>
+      <td>519541.0</td>
+    </tr>
+    <tr>
+      <th>369</th>
+      <td>The Godfather</td>
+      <td>134966411.0</td>
+      <td>2.685000e+08</td>
+      <td>NaN</td>
+      <td>7000000.0</td>
+      <td>Mar 15 1972</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>Paramount Pictures</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Historical Fiction</td>
+      <td>Francis Ford Coppola</td>
+      <td>100.0</td>
+      <td>9.2</td>
+      <td>411088.0</td>
+    </tr>
+    <tr>
+      <th>2025</th>
+      <td>Inception</td>
+      <td>285630280.0</td>
+      <td>7.538303e+08</td>
+      <td>NaN</td>
+      <td>160000000.0</td>
+      <td>Jul 16 2010</td>
+      <td>PG-13</td>
+      <td>147.0</td>
+      <td>Warner Bros.</td>
+      <td>Original Screenplay</td>
+      <td>Thriller/Suspense</td>
+      <td>Science Fiction</td>
+      <td>Christopher Nolan</td>
+      <td>87.0</td>
+      <td>9.1</td>
+      <td>188247.0</td>
+    </tr>
+    <tr>
+      <th>366</th>
+      <td>The Godfather: Part II</td>
+      <td>57300000.0</td>
+      <td>5.730000e+07</td>
+      <td>NaN</td>
+      <td>13000000.0</td>
+      <td>Dec 11 1974</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>Paramount Pictures</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Historical Fiction</td>
+      <td>Francis Ford Coppola</td>
+      <td>NaN</td>
+      <td>9.0</td>
+      <td>245271.0</td>
+    </tr>
+    <tr>
+      <th>675</th>
+      <td>One Flew Over the Cuckoo's Nest</td>
+      <td>108981275.0</td>
+      <td>1.089813e+08</td>
+      <td>NaN</td>
+      <td>4400000.0</td>
+      <td>Nov 19 1975</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>MGM</td>
+      <td>Based on Book/Short Story</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Milos Forman</td>
+      <td>96.0</td>
+      <td>8.9</td>
+      <td>214457.0</td>
+    </tr>
+    <tr>
+      <th>1266</th>
+      <td>The Dark Knight</td>
+      <td>533345358.0</td>
+      <td>1.022345e+09</td>
+      <td>234119058.0</td>
+      <td>185000000.0</td>
+      <td>Jul 18 2008</td>
+      <td>PG-13</td>
+      <td>152.0</td>
+      <td>Warner Bros.</td>
+      <td>Based on Comic/Graphic Novel</td>
+      <td>Action</td>
+      <td>Super Hero</td>
+      <td>Christopher Nolan</td>
+      <td>93.0</td>
+      <td>8.9</td>
+      <td>465000.0</td>
+    </tr>
+    <tr>
+      <th>741</th>
+      <td>Pulp Fiction</td>
+      <td>107928762.0</td>
+      <td>2.129288e+08</td>
       <td>NaN</td>
       <td>8000000.0</td>
-      <td>Jun 12 1998</td>
+      <td>Oct 14 1994</td>
       <td>R</td>
       <td>NaN</td>
-      <td>Gramercy</td>
-      <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>6.1</td>
-      <td>1071.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>First Love, Last Rites</td>
-      <td>10876.0</td>
-      <td>10876.0</td>
-      <td>NaN</td>
-      <td>300000.0</td>
-      <td>Aug 07 1998</td>
-      <td>R</td>
-      <td>NaN</td>
-      <td>Strand</td>
-      <td>None</td>
-      <td>Drama</td>
-      <td>None</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>6.9</td>
-      <td>207.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>I Married a Strange Person</td>
-      <td>203134.0</td>
-      <td>203134.0</td>
-      <td>NaN</td>
-      <td>250000.0</td>
-      <td>Aug 28 1998</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>Lionsgate</td>
-      <td>None</td>
-      <td>Comedy</td>
-      <td>None</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>6.8</td>
-      <td>865.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Let's Talk About Sex</td>
-      <td>373615.0</td>
-      <td>373615.0</td>
-      <td>NaN</td>
-      <td>300000.0</td>
-      <td>Sep 11 1998</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>Fine Line</td>
-      <td>None</td>
-      <td>Comedy</td>
-      <td>None</td>
-      <td>None</td>
-      <td>13.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Slam</td>
-      <td>1009819.0</td>
-      <td>1087521.0</td>
-      <td>NaN</td>
-      <td>1000000.0</td>
-      <td>Oct 09 1998</td>
-      <td>R</td>
-      <td>NaN</td>
-      <td>Trimark</td>
+      <td>Miramax</td>
       <td>Original Screenplay</td>
       <td>Drama</td>
       <td>Contemporary Fiction</td>
+      <td>Quentin Tarantino</td>
+      <td>94.0</td>
+      <td>8.9</td>
+      <td>417703.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>12 Angry Men</td>
+      <td>0.0</td>
+      <td>0.000000e+00</td>
+      <td>NaN</td>
+      <td>340000.0</td>
+      <td>Apr 13 1957</td>
       <td>None</td>
-      <td>62.0</td>
-      <td>3.4</td>
-      <td>165.0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3196</th>
-      <td>Zack and Miri Make a Porno</td>
-      <td>31452765.0</td>
-      <td>36851125.0</td>
-      <td>21240321.0</td>
-      <td>24000000.0</td>
-      <td>Oct 31 2008</td>
-      <td>R</td>
-      <td>101.0</td>
-      <td>Weinstein Co.</td>
+      <td>NaN</td>
+      <td>United Artists</td>
       <td>Original Screenplay</td>
-      <td>Comedy</td>
-      <td>Contemporary Fiction</td>
-      <td>Kevin Smith</td>
-      <td>65.0</td>
-      <td>7.0</td>
-      <td>55687.0</td>
+      <td>Drama</td>
+      <td>None</td>
+      <td>Sidney Lumet</td>
+      <td>NaN</td>
+      <td>8.9</td>
+      <td>119101.0</td>
     </tr>
     <tr>
-      <th>3197</th>
-      <td>Zodiac</td>
-      <td>33080084.0</td>
-      <td>83080084.0</td>
-      <td>20983030.0</td>
-      <td>85000000.0</td>
-      <td>Mar 02 2007</td>
+      <th>816</th>
+      <td>Schindler's List</td>
+      <td>96067179.0</td>
+      <td>3.212000e+08</td>
+      <td>NaN</td>
+      <td>25000000.0</td>
+      <td>Dec 15 1993</td>
       <td>R</td>
-      <td>157.0</td>
-      <td>Paramount Pictures</td>
-      <td>Based on Book/Short Story</td>
-      <td>Thriller/Suspense</td>
+      <td>NaN</td>
+      <td>Universal</td>
+      <td>Based on Real Life Events</td>
+      <td>Drama</td>
       <td>Dramatization</td>
-      <td>David Fincher</td>
-      <td>89.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>Steven Spielberg</td>
+      <td>97.0</td>
+      <td>8.9</td>
+      <td>276283.0</td>
     </tr>
     <tr>
-      <th>3198</th>
-      <td>Zoom</td>
-      <td>11989328.0</td>
-      <td>12506188.0</td>
-      <td>6679409.0</td>
-      <td>35000000.0</td>
-      <td>Aug 11 2006</td>
-      <td>PG</td>
+      <th>2987</th>
+      <td>Toy Story 3</td>
+      <td>410640665.0</td>
+      <td>1.046341e+09</td>
       <td>NaN</td>
-      <td>Sony Pictures</td>
-      <td>Based on Comic/Graphic Novel</td>
+      <td>200000000.0</td>
+      <td>Jun 18 2010</td>
+      <td>G</td>
+      <td>102.0</td>
+      <td>Walt Disney Pictures</td>
+      <td>Original Screenplay</td>
       <td>Adventure</td>
-      <td>Super Hero</td>
-      <td>Peter Hewitt</td>
-      <td>3.0</td>
-      <td>3.4</td>
-      <td>7424.0</td>
-    </tr>
-    <tr>
-      <th>3199</th>
-      <td>The Legend of Zorro</td>
-      <td>45575336.0</td>
-      <td>141475336.0</td>
-      <td>NaN</td>
-      <td>80000000.0</td>
-      <td>Oct 28 2005</td>
-      <td>PG</td>
-      <td>129.0</td>
-      <td>Sony Pictures</td>
-      <td>Remake</td>
-      <td>Adventure</td>
-      <td>Historical Fiction</td>
-      <td>Martin Campbell</td>
-      <td>26.0</td>
-      <td>5.7</td>
-      <td>21161.0</td>
-    </tr>
-    <tr>
-      <th>3200</th>
-      <td>The Mask of Zorro</td>
-      <td>93828745.0</td>
-      <td>233700000.0</td>
-      <td>NaN</td>
-      <td>65000000.0</td>
-      <td>Jul 17 1998</td>
-      <td>PG-13</td>
-      <td>136.0</td>
-      <td>Sony Pictures</td>
-      <td>Remake</td>
-      <td>Adventure</td>
-      <td>Historical Fiction</td>
-      <td>Martin Campbell</td>
-      <td>82.0</td>
-      <td>6.7</td>
-      <td>4789.0</td>
+      <td>Kids Fiction</td>
+      <td>None</td>
+      <td>99.0</td>
+      <td>8.9</td>
+      <td>67380.0</td>
     </tr>
   </tbody>
 </table>
-<p>3201 rows × 16 columns</p>
 </div>
 </div>
 
